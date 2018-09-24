@@ -1,3 +1,4 @@
 https://codingthesmartway.com/angular-6-mean-stack-crash-course-part-1-front-end-project-setup-and-routing/
 https://material.angular.io/components/toolbar/overview
 https://codingthesmartway.com/angular-6-mean-stack-crash-course-part-2-implementing-the-back-end/
+https://theholmesoffice.com/mongoose-connection-best-practice/
