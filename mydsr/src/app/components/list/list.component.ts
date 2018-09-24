@@ -1,5 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 
+// Injecting Service
+import {IssueService} from '../../issue.service';
+import { Router } from '@angular/router';
+
 @Component({
   selector: 'app-list',
   templateUrl: './list.component.html',
@@ -7,7 +11,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private issueService: IssueService,
+    private router: Router
+    ) { }
 
   ngOnInit() {
   }

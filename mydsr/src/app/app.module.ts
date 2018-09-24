@@ -9,8 +9,10 @@ import { UpdateComponent } from './components/update/update.component';
 
 // 1) Import for routing
 import {RouterModule, Routes} from '@angular/router';
-// Import to use Angular Material Toolbar
+// 2) Import to use Angular Material Toolbar
 import {MatToolbarModule} from '@angular/material';
+// 3) Import to connect backend to frontend
+import {IssueService}  from './issue.service';
 
 // 1.1) Routing Configuration
 const routes: Routes = [
@@ -35,7 +37,9 @@ const routes: Routes = [
     RouterModule.forRoot(routes),
     MatToolbarModule
   ],
-  providers: [],
+  providers: [
+    IssueService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
