@@ -2,3 +2,6 @@ https://codingthesmartway.com/angular-6-mean-stack-crash-course-part-1-front-end
 https://material.angular.io/components/toolbar/overview
 https://codingthesmartway.com/angular-6-mean-stack-crash-course-part-2-implementing-the-back-end/
 https://theholmesoffice.com/mongoose-connection-best-practice/
+https://codingthesmartway.com/angular-6-mean-stack-crash-course-part-3-connecting-front-end-to-back-end/
+https://codingthesmartway.com/angular-6-mean-stack-crash-course-part-4-completing-the-user-interface/
+https://stackoverflow.com/questions/40717449/how-to-change-angular-port-from-4200-to-any-other
