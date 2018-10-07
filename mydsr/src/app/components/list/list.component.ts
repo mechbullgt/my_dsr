@@ -13,10 +13,8 @@ import { Issue } from '../../issue.model';
   templateUrl: './list.component.html',
   styleUrls: ['./list.component.css']
 })
-
 // List Component Class
 export class ListComponent implements OnInit {
-
   issues: Issue[];
   displayedColumns = [
     'title',
@@ -29,7 +27,9 @@ export class ListComponent implements OnInit {
   constructor(
     private issueService: IssueService,
     private router: Router
-  ) { }
+  ) { 
+    console.log("List Component Constructor called!");
+  }
 
   ngOnInit() {
     console.log("Fetching Issues!");

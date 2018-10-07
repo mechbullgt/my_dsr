@@ -1,3 +1,5 @@
+import { HttpClientModule } from '@angular/common/http';
+import { ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -34,7 +36,9 @@ const routes: Routes = [
     imports: [
         BrowserModule,
         BrowserAnimationsModule,
+        HttpClientModule,
         RouterModule.forRoot(routes),
+        ReactiveFormsModule,
         MatToolbarModule,
         MatFormFieldModule,
         MatInputModule,
@@ -50,6 +54,10 @@ const routes: Routes = [
     providers: [
         IssueService
     ],
-    bootstrap: [AppComponent]
+    bootstrap: [
+        AppComponent,
+        ListComponent
+    ]
 })
 export class AppModule { }
+
